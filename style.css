@@ -1,0 +1,293 @@
+:root{
+
+    --navbar-font:'Ubuntu', sans-serif;
+    --primary-color:rgb(39, 121, 139);
+    --secondary-color:rgb(164, 199, 204);
+    --heading-color:#007B83;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    color: white;
+}
+html, body {
+    height: 98%;
+}
+h1{
+    color: white;
+}
+body{
+position:relative;
+/* overflow-x: hidden; */
+}
+.gradient-one{
+    background-color: rgb(5,101,116);
+    background: radial-gradient(ellipse at 50% -20%, rgba(5,76,81,1) 0%, rgba(9,21,23,1) 36%);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 50% 50%;
+    z-index:0;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+
+.navbar{
+    padding-top: 40px;
+    margin-bottom: 2rem;
+    position: relative;
+    
+    overflow: hidden;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-right:3vw ;
+    
+}
+ul li{
+    display: inline-block;
+    padding: 1.3rem;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font:var(--navbar-font);
+    font-size: 1.3rem;
+}
+ul li a:hover{
+    color: #f05c5c;
+}
+.logo img{
+    float: left;
+    width: 160px; 
+    height: 190px; 
+    
+    border: wheat;
+    margin-left:5vw ;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    padding: 1.3rem;
+    padding-left: 0;
+    position: relative;
+    overflow:visible;
+    
+    
+}
+
+.bg-logo{
+    /* height: 700px;
+    width: 600px;  */
+    
+    float: right;
+    left: 70vw; 
+    top: 20vh; 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+    
+}
+
+
+.overlay{
+    height:85vh;
+    width:40vw ;
+    background: rgb(29, 28, 28);
+    opacity: 0.2;
+    
+}
+.info{
+    position: relative;
+    background-color: transparent;
+    padding: 4vw 5vw;
+    width: 65%;
+    color: var(--secondary-color);
+}
+.info-title{
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.info-description{
+    font-size: 1.3rem;
+}
+.info-description p{
+    color: var(--secondary-color);
+}
+
+.gradient-two{
+    background: rgb(18, 97, 109);
+    background: radial-gradient(circle, rgba(5,76,81,1) 0%, rgb(12, 12, 12) 31%);
+    padding-top: 5vh;
+    position: relative;
+    
+}
+
+
+.container-1{
+    width: 90vw;
+    height:100vh;
+    background-color: black;
+    opacity: 0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+
+    
+}
+.placeholder-1{
+    width: 87vw;
+    height: 94vh;
+    background: rgb(214, 212, 212);
+    opacity: 1;
+    
+}
+.container-2{
+    width: 90vw;
+    height:100vh;
+    opacity: 1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+    margin-top: 15vh;
+    z-index: 1;
+    position: relative;
+}
+.placeholder-2{
+    width: 87vw;
+    height: 94vh;
+    background:#29446b;
+    z-index: 3;
+    position: absolute;
+    opacity: 1;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    
+}
+.feature-1{
+    height: 80%;
+    width: 100%;
+    z-index: 10;
+    position:relative;
+    padding-left: 1.55vw;
+    top: 5vh;
+}
+.feature-2{
+    z-index: 20;
+    position:relative;
+    height: 90%;
+    width: 60%;
+    padding-right: 2vw;
+    padding-top: 2vh;
+    
+}
+
+
+.title-testimonial{
+    color: var(--heading-color);
+    margin:50px auto;
+    text-align: center;
+    font-size: 3rem;
+}
+/* .carousel{
+    margin-left: 15%;
+} */
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+.testimonial > p{
+    padding: 3rem;
+    text-align: center;
+    
+}
+.name{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.slider {
+    margin: 0 auto; 
+    width: 90%;
+    padding:50px;
+    padding-top: 0;
+    
+}
+
+.slick-slide > div {
+    transform: scale(.7);
+    transition: transform .3s cubic-bezier(.4,0,.2,1);
+}
+.slick-center > div {
+    transform: scale(0.9);
+}
+.slider__item > div {
+    width: 100%;
+    height:500px ;
+    
+    background-color: #171717;
+    opacity: 0.6;
+}
+
+.social-containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+}
+.social-heading{
+    margin-left: 40vw;
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+}
+.social-container{
+    padding: 2.5rem;
+}
+.socials{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.icon{
+    
+    margin: 0;
+    display: flex;
+}
+.icon > img{
+    height: 100px;
+    width: 100px;
+    padding-left: 20%;
+    justify-content: center;
+}
+.id{
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.footer{
+    background: #171717;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width:1200px){
+    .bg-logo{display: none;}
+
+
+}
+  
