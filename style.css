@@ -272,11 +272,14 @@ ul li a:hover{
     width: 100px;
     padding-left: 20%;
     justify-content: center;
+    padding-bottom: 10%;
 }
 .id{
     padding: 20px;
     text-align: center;
     font-size: 0.9rem;
+    margin-top: 10px;
+    text-decoration: none;
 }
 .footer{
     background: #171717;
