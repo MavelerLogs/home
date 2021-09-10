@@ -159,7 +159,7 @@ ul li a:hover{
     justify-content: center;
     align-items: center;
     margin-left: 5vw;
-    margin-top: 15vh;
+    margin-top: 2vh;
     z-index: 1;
     position: relative;
 }
@@ -251,9 +251,10 @@ ul li a:hover{
    
 }
 .social-heading{
-    margin-left: 40vw;
+    /* margin-left: 40vw; */
     font-size: 1.8rem;
     padding-bottom: 10px;
+    text-align: center;
 }
 .social-container{
     padding: 2.5rem;
